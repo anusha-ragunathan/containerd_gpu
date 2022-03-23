@@ -855,7 +855,7 @@ spec:
   psp:
     enabled: false
   driver:
-    enabled: false # We pre bake drivers, so install again.
+    enabled: false # We pre bake drivers, so dont install again.
     repository: nvcr.io/nvidia
     image: driver
     version: "510.47.03"
