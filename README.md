@@ -107,7 +107,7 @@ version = 2
 
 2. I can manually restart the kubelet and the nodes are now ready for scheduling pods.
 
-3. GPU Daemonset pods start running in the GPU instance nodes. However, they crash due to `PodCrashLoopBackOff`
+3. GPU Daemonset pods start running in the GPU instance nodes. However, they crash due to `Init:RunContainerError` and `Init:CrashLoopBackOff`
 
 
 ```
